@@ -1,0 +1,74 @@
+//蓝色系列
+$blue: #0078d7;
+$blue-p1:#0087f1;
+//白色
+$white: #fff;
+//淡灰色系列
+$grayBC: #829393;
+$gray-66: #666;
+$gray-99: #999;
+$gray-ee: #eee;
+$gray-dd: #ddd;
+$gray-a0: #a0a0a0;
+$gray-fa: #fafafa;
+$gray-f1: #f1f1f1;
+$gray-e7: #e7e7e7;
+$gray-f8: #f8f8f8;
+//深灰色
+$gray-90: #909399;
+$gray-s1:#ebedf0;
+//黑色系列
+$black:#000;
+$black-1:#111;
+//红色
+$red:red;
+$colse:#dc490f;
+//绿色
+$green:green;
+//橙色
+$orange:orange;
+$o-yellow:#FF500B;
+
+/*---公共样式设置---*/
+//基本样式
+li{span.title {color: $gray-99;}}
+//背景
+.white-bg{background: $white;border: 1px solid $gray-e7;}
+.gray-bg{background: $gray-s1;}
+//锁屏
+.hk-lock-main {
+	background: $white;
+	-webkit-box-shadow: 0 0 8px $gray-a0;
+	box-shadow: 0 0 8px $gray-a0;
+	.el-icon-lock {
+		color: $blue;
+		span{color: $gray-66;}
+	}
+	.pass-lock{background: $blue;border: 25px solid $white;}
+	p.user-name{color: $gray-ee;}
+	.bw1{background:$blue-p1;color: $white;}
+	.bw2{background:$gray-90;border-color: $gray-90;color: $white;}
+}
+// 字体颜色
+.blueC{color: $blue;}.grayBC{color:$grayBC;}.red{color:$red;}.black{color: $black-1;}.green{color: $green;}.orange{color: $orange;}.o-yellow{color:$o-yellow;}
+//鼠标经过
+.hk-hover:hover,a:hover{color: $blue;cursor: pointer;}
+/*---表单---*/
+textarea.el-textarea__inner,input.el-input__inner{background: $gray-fa;}
+textarea.el-textarea__inner:hover,input.el-input__inner:hover,tr:hover textarea.el-textarea__inner,tr:hover input.el-input__inner,.hk-mini-input .el-tag--small{background: $white}
+/*---弹窗---*/
+.hk-dialog{
+	.el-dialog__header{background: $gray-ee;border-bottom: 1px solid $gray-dd;}
+	.el-dialog__footer{background: $gray-f8;}
+}
+.hk-dialog-blue{
+	.el-dialog__header{background: $blue;
+		.el-dialog__title,.el-dialog__headerbtn .el-dialog__close{color: $white;}
+		.el-dialog__headerbtn .el-dialog__close:hover{background: $colse;}
+	}
+}
+/*---基础框架---*/
+.main-container{background-color: $gray-ee;}
+//收缩
+.flex{background-color:$gray-f1;border: 1px solid $gray-dd;}
+.flex:hover{background: $blue;color:$white;border-color: $white;}

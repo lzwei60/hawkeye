@@ -1,0 +1,159 @@
+//pc端特有样式
+body {
+    overflow: hidden;
+}
+.login-pcbg {
+    background: #f5f9fc;
+    padding-top: 70px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+#app {
+    height: 100%;
+}
+.nopc {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#login_wrap {
+    img {
+        vertical-align: middle;
+    }
+    > div {
+        &.hk-login-main {
+            position: relative;
+            background: #0078d7;
+            color: #fff;
+            width: 428px;
+            margin: 0 auto;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 0, 0, 0.4);
+            border-radius: 4px;
+            overflow: hidden;
+            // 顶部栏目
+            .BackToLogin {
+                color: #add5ff;
+                padding: 10px 0;
+                //左侧文字
+                .return {
+                    padding-left: 10px;
+                    cursor: pointer;
+                    color: #e8e8e8;
+                }
+                .return:hover {
+                    color: #fff;
+                }
+                //右侧功能
+                .function {
+                    text-align: right;
+                    padding-right: 10px;
+                    //语言版本
+                    .el-dropdown-link {
+                        margin-right: 5px;
+                        cursor: pointer;
+                        color: #e8e8e8;
+                    }
+                    .el-dropdown-link:hover {
+                        color: #fff;
+                    }
+                    //icon公用样式
+                    .hk-icon {
+                        padding: 3px;
+                    }
+                    .hk-icon:hover {
+                        color: #fff;
+                        background: #2591e6;
+                        cursor: pointer;
+                        border-radius: 3px;
+                    }
+                    //关闭样式
+                    .el-icon-close:hover {
+                        color: #fff;
+                        background: #f60;
+                        cursor: pointer;
+                    }
+                }
+            }
+            //登录
+            .hk-login {
+                //position: absolute;
+                width: 100%;
+                .hk-login-body {
+                    background: #fff;
+                    color: #666;
+                    //标题
+                    .title {
+                        position: absolute;
+                        top: 96px;
+                        color: #333;
+                        background: #f2f2f2;
+                        padding: 10px 0;
+                        width: 60%;
+                        margin: 0 20%;
+                        border-radius: 10px;
+                        text-align: center;
+                        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+                        border: 1px solid #fff;
+                        filter: alpha(opacity=80);
+                        -moz-opacity: 0.8;
+                        -khtml-opacity: 0.8;
+                        opacity: 0.8;
+                    }
+                }
+                //头像设置
+                .thumb {
+                    width: 80px;
+                    height: 80px;
+                    line-height: 76px;
+                    background: #fff;
+                    position: absolute;
+                    top: 120px;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    border-radius: 100%;
+                    box-shadow: 0 0 8px rgba(160, 160, 160, 160);
+                    z-index: 10;
+                    overflow: hidden;
+                    text-align: center;
+                    border: 1px solid #ddd;
+                    //图片最大值
+                    img {
+                        max-width: 90%;
+                    }
+                }
+                //表单
+                .hk-login-form {
+                    margin-top: 80px;
+                    padding: 50px 80px 20px 80px;
+                    //文本框
+                    .loginInput {
+                        margin-bottom: 10px;
+                    }
+                    //控件
+                    .hk-controls {
+                        position: relative;
+                        .get {
+                            position: absolute;
+                            right: 0px;
+                        }
+                    }
+                    //通用文本框
+                    .tyInput {
+                        padding-bottom: 20px;
+                    }
+                    //找回密码
+                    .retrieve {
+                        color: #666;
+                    }
+                }
+            }
+        }
+        //底部版权
+        .footer {
+            background: #ededed;
+            color: #999;
+            text-align: center;
+            line-height: 40px;
+        }
+    }
+}

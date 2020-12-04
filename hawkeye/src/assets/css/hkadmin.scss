@@ -1,0 +1,54 @@
+//系统信息
+.hsadmin-bg {color: #82939e;
+	.date-length {font-size: 25px;margin-left: 5px;margin-right: 5px;color: #0078d7;}
+	.system-info {
+	margin: 0 auto;width: 80px;height: 80px;border-radius: 100%;text-align: center;background: #fff;color: #b2c0d1;border: 1px solid #b2c0d1;padding-top: 15px;
+	i {font-size: 25px;}
+	}
+	.system-success {color: #91ce31;border-color: #91ce31;}
+	.system-danger {color: #e26f50;border-color: #e26f50;}
+	//服务器
+	.service-item {text-align: center;padding: 10px 0;
+		.rad {height: 60px;width: 60px;border: 1px solid #0078d7;border-radius: 100%;font-size: 30px;padding-top: 12px;margin: 0 auto;color: #0078d7;}
+		.service-name {font-size: 18px;color: #0078d7;padding: 5px 0;}
+	}
+	//数据库
+	.data-item {
+		.operation-hover {height: 100px;width: 100px;border: 1px solid #0078d7;border-radius: 100%;margin: 0 auto;padding-top: 20px;text-align: center;
+			.data-num {color: #0078d7;font-size: 20px;font-weight: bold;}
+		}
+	}
+	//授权
+	.hk-authorization {background: #f5f5f5;padding: 15px;font-size: 18px;border-radius: 5px;border: 1px solid #ddd;}
+}
+.hsadmin-bg:after {content: '';display: block;clear: both;height: 0;}
+//应用插件管理
+.hsadmin-td-icon{margin: 0 auto;height: 50px;width: 50px;line-height: 50px; border-radius: 100%;border: 5px solid #daeafd;text-align: center;background: #0078d7;
+    i{font-size: 29px;color: #fff;}
+}
+.hk-td-gray{
+	background: #d0d0d0;border-color: #ddd;
+	i{color: #fafafa;}
+}
+.dialog-footer{
+	text-align: right;display: block;
+}
+//系统设置
+.hk-admin-logo{
+	position: relative;
+	float: left;
+	margin-top: 6px;
+	.el-icon-close{
+		position: absolute;
+		background: #fafafa;
+		border-radius: 100%;
+		border: 1px solid #ddd;
+		right: -5px;
+		top:-5px;
+		z-index: 9;
+	}
+	.el-icon-close:hover{
+		background: #f60;
+		color: #fff;
+	}
+}

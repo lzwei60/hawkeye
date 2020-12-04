@@ -1,0 +1,163 @@
+body {
+  overflow: hidden;
+}
+
+.login-pcbg {
+  background: #f5f9fc;
+  padding-top: 70px;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+.nopc {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#login_wrap img {
+  vertical-align: middle;
+}
+
+#login_wrap > div.hk-login-main {
+  position: relative;
+  background: #0078d7;
+  color: #fff;
+  width: 428px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 0 8px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#login_wrap > div.hk-login-main .BackToLogin {
+  color: #add5ff;
+  padding: 10px 0;
+}
+
+#login_wrap > div.hk-login-main .BackToLogin .return {
+  padding-left: 10px;
+  cursor: pointer;
+  color: #e8e8e8;
+}
+
+#login_wrap > div.hk-login-main .BackToLogin .return:hover {
+  color: #fff;
+}
+
+#login_wrap > div.hk-login-main .BackToLogin .function {
+  text-align: right;
+  padding-right: 10px;
+}
+
+#login_wrap > div.hk-login-main .BackToLogin .function .el-dropdown-link {
+  margin-right: 5px;
+  cursor: pointer;
+  color: #e8e8e8;
+}
+
+#login_wrap > div.hk-login-main .BackToLogin .function .el-dropdown-link:hover {
+  color: #fff;
+}
+
+#login_wrap > div.hk-login-main .BackToLogin .function .hk-icon {
+  padding: 3px;
+}
+
+#login_wrap > div.hk-login-main .BackToLogin .function .hk-icon:hover {
+  color: #fff;
+  background: #2591e6;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#login_wrap > div.hk-login-main .BackToLogin .function .el-icon-close:hover {
+  color: #fff;
+  background: #f60;
+  cursor: pointer;
+}
+
+#login_wrap > div.hk-login-main .hk-login {
+  width: 100%;
+}
+
+#login_wrap > div.hk-login-main .hk-login .hk-login-body {
+  background: #fff;
+  color: #666;
+}
+
+#login_wrap > div.hk-login-main .hk-login .hk-login-body .title {
+  position: absolute;
+  top: 96px;
+  color: #333;
+  background: #f2f2f2;
+  padding: 10px 0;
+  width: 60%;
+  margin: 0 20%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+
+#login_wrap > div.hk-login-main .hk-login .thumb {
+  width: 80px;
+  height: 80px;
+  line-height: 76px;
+  background: #fff;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  box-shadow: 0 0 8px #a0a0a0;
+  z-index: 10;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+#login_wrap > div.hk-login-main .hk-login .thumb img {
+  max-width: 90%;
+}
+
+#login_wrap > div.hk-login-main .hk-login .hk-login-form {
+  margin-top: 80px;
+  padding: 50px 80px 20px 80px;
+}
+
+#login_wrap > div.hk-login-main .hk-login .hk-login-form .loginInput {
+  margin-bottom: 10px;
+}
+
+#login_wrap > div.hk-login-main .hk-login .hk-login-form .hk-controls {
+  position: relative;
+}
+
+#login_wrap > div.hk-login-main .hk-login .hk-login-form .hk-controls .get {
+  position: absolute;
+  right: 0px;
+}
+
+#login_wrap > div.hk-login-main .hk-login .hk-login-form .tyInput {
+  padding-bottom: 20px;
+}
+
+#login_wrap > div.hk-login-main .hk-login .hk-login-form .retrieve {
+  color: #666;
+}
+
+#login_wrap > div .footer {
+  background: #ededed;
+  color: #999;
+  text-align: center;
+  line-height: 40px;
+}

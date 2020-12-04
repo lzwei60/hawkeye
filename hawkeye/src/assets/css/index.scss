@@ -1,0 +1,85 @@
+.overflow-x{
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    background: url(../img/index/indexbg.png) no-repeat;
+    background-size: 100% 80%;
+}
+.nav_logo_img{
+    width: 37px;
+    height: 38px;
+}
+.nav_logo_text{
+    line-height: 40px;
+}
+.hk-hover:hover{
+    color: #409eff;
+	cursor: pointer;
+}
+.letter{
+    letter-spacing: 5px;
+}
+.nav_index_drop{
+    width: 100%;
+}
+.mt80{
+    margin-top: 80px;
+}
+.content{
+    width: 100%;
+}
+.content_ptb100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.content_pt100{
+    padding-top: 100px;
+}
+.bluebg{
+    width: 455px;
+    height: 705px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background: -webkit-linear-gradient(bottom left, #61A6FF, #1C7FFE); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(bottom left, #61A6FF, #1C7FFE); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(bottom left, #61A6FF,#1C7FFE); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to bottom left, #61A6FF, #1C7FFE); /* 标准的语法（必须放在最后） */
+}
+.oneimg{
+    width: 285px;
+    height: 165px;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.twoimg{
+    width: 290px;
+    height: 140px;
+    border-radius: 5px;
+    position: absolute;
+    left: 165px;
+    top: 185px;
+}
+.thrimg{
+    width: 285px;
+    height: 175px;
+    border-radius: 5px;
+    position: absolute;
+    left: 0px;
+    top: 335px;
+}
+.fouimg{
+    width: 290px;
+    height: 165px;
+    border-radius: 5px;
+    position: absolute;
+    left: 165px;
+    top: 525px;
+}
+.border_bottom{
+    width: 70%;
+    border-bottom: 1px solid #b8b8b8;
+}
