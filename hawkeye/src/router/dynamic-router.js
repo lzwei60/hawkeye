@@ -19,6 +19,7 @@ const MyselfAgenda = () => import('../views/myself/myselfAgenda/agenda_index.vue
 const MyselfReport = () => import('../views/myself/myselfReport/report_index.vue') // 我自己汇报
 // 个人中心
 const PersonCenter = () => import('../views/personCenter/person_index.vue') // 个人中心
+const LogOut = () => import('../views/personCenter/logOut.vue') //退出登录
 
 /* 需要权限判断的路由 */
 const dynamicRoutes = [
@@ -148,7 +149,16 @@ const dynamicRoutes = [
             pid: "1",
             name: "个人中心",
             icon: "el-icon-third-renshiguanli"
-        },
+        }
+    },{
+        path: '/logOut',
+        name: 'logOut',
+        component: LogOut,
+        meta: {
+            pid: "1",
+            name: "退出登录",
+            icon: "el-icon-third-renshiguanli"
+        }
     }
 ]
 

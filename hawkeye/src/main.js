@@ -32,13 +32,21 @@ import glComponents from './components/common/js/glComponents.js'
 Vue.use(glComponents)
 /* ---------------------路由 start------------------------- */
 router.beforeEach((to, from, next) => {
-    if (!store.state.User.permissionList) {
-        store.dispatch('FETCH_PERMISSION').then(() => { next({ path: to.path }) })
-    } else {
-        if (to.path !== '/index') {
+    if (!store.state.User.token) {
+        if ( to.matched.length > 0 && !to.matched.some(record => record.meta.requiresAuth) ) {
             next()
         } else {
-            next(from.fullPath)
+            next({ path: '/index' })
+        }
+    } else {
+        if (!store.state.User.permissionList) {
+            store.dispatch('FETCH_PERMISSION').then(() => { next({ path: to.path }) })
+        } else {
+            if (to.path !== '/index') {
+                next()
+            } else {
+                next(from.fullPath)
+            }
         }
     }
 })
